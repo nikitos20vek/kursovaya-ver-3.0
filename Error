@@ -1,0 +1,27 @@
+||=== Build: Debug in kursovaya ver 3.0 (compiler: GNU GCC Compiler) ===|
+C:\Users\user\Desktop\Kursovik\kursovaya ver 3.0\file.h|7|warning: 'struct element' declared inside parameter list will not be visible outside of this definition or declaration|
+C:\Users\user\Desktop\Kursovik\kursovaya ver 3.0\file.h|9|warning: 'struct element' declared inside parameter list will not be visible outside of this definition or declaration|
+
+
+C:\Users\user\Desktop\Kursovik\kursovaya ver 3.0\file.c|4|error: conflicting types for 'UploadInformationFromAFile'|
+
+
+C:\Users\user\Desktop\Kursovik\kursovaya ver 3.0\file.h|7|note: previous declaration of 'UploadInformationFromAFile' was here|
+
+
+C:\Users\user\Desktop\Kursovik\kursovaya ver 3.0\file.c||In function 'UploadInformationFromAFile':|
+
+
+C:\Users\user\Desktop\Kursovik\kursovaya ver 3.0\file.c|14|warning: format '%c' expects argument of type 'char *', but argument 3 has type 'char (*)[100]' [-Wformat=]|
+C:\Users\user\Desktop\Kursovik\kursovaya ver 3.0\file.c|17|warning: format '%s' expects argument of type 'char *', but argument 3 has type 'char (*)[50]' [-Wformat=]|
+C:\Users\user\Desktop\Kursovik\kursovaya ver 3.0\file.c|18|warning: format '%s' expects argument of type 'char *', but argument 3 has type 'char (*)[100]' [-Wformat=]|
+C:\Users\user\Desktop\Kursovik\kursovaya ver 3.0\file.c|28|error: conflicting types for 'DownloadInformationInAFile'|
+C:\Users\user\Desktop\Kursovik\kursovaya ver 3.0\file.h|9|note: previous declaration of 'DownloadInformationInAFile' was here|
+C:\Users\user\Desktop\Kursovik\kursovaya ver 3.0\file.c||In function 'DownloadInformationInAFile':|
+C:\Users\user\Desktop\Kursovik\kursovaya ver 3.0\file.c|41|warning: format '%s' expects argument of type 'char *', but argument 3 has type 'char (*)[50]' [-Wformat=]|
+C:\Users\user\Desktop\Kursovik\kursovaya ver 3.0\file.c|42|warning: format '%s' expects argument of type 'char *', but argument 3 has type 'char (*)[100]' [-Wformat=]|
+C:\Users\user\Desktop\Kursovik\kursovaya ver 3.0\file.c|43|warning: format '%d' expects argument of type 'int', but argument 3 has type 'int *' [-Wformat=]|
+C:\Users\user\Desktop\Kursovik\kursovaya ver 3.0\file.c|44|warning: format '%d' expects argument of type 'int', but argument 3 has type 'int *' [-Wformat=]|
+C:\Users\user\Desktop\Kursovik\kursovaya ver 3.0\file.c|45|warning: format '%d' expects argument of type 'int', but argument 3 has type 'int *' [-Wformat=]|
+C:\Users\user\Desktop\Kursovik\kursovaya ver 3.0\file.c|46|warning: format '%d' expects argument of type 'int', but argument 3 has type 'int *' [-Wformat=]|
+||=== Build failed: 2 error(s), 11 warning(s) (0 minute(s), 0 second(s)) ===|
